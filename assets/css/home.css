@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.patterns-container{
+   padding: 0 10%;
+}
+
+body {
+   
+    background-color: #0b0b0b;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.header-dhn{
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.navbar {
+    color: #ffff;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+/*menu mobile*/
+#btn-mobile{
+    display: none;
+}
+
+.menu-mobile-rp{
+    display: none;
+}
+/*end menu mobile */
+.navbar-logo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.navbar-menu {
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 10px;
+}
+
+.navbar-menu li a {
+  
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar-menu li a.active {
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.cta-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.social-icons a{
+
+    text-decoration: none;
+    color: #ffffff;
+}
+.social-icons a i{
+    font-size: 25px;
+}
+
+
+#btn-mobile {
+  font-size: 25px;
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+
+/*hambuer-imgh*/
+ .hambuer-imgh{
+    background-position: center;
+    background-size: cover;
+    display: flex; /* Adicionado */
+    align-items: center; /* Adicionado */
+    height: 560px;
+    width: 100%;
+ }
+
+
+ .bord-line-pd{
+    width: 100%;
+   height: 150px;
+    background-color: rgba(46, 46, 46, 0.5);
+    margin: auto; /* Adicionado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .textd-v p {
+    font-weight: 400;      
+    font-size: 30px;
+       font-family: 'Inter', sans-serif;
+ }
+
+ 
+/*end hambuer-imgh*/
+
+
+/*trip-echoes*/
+.trip-echoes{
+  
+}
+.dnv-tor{
+    border: 1px solid #fff;
+    
+}
+
+.patterns-trps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .dng-gnh {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .img-mgm {
+    flex: 1;
+  }
+  
+  .img-mgm img {
+    width: 400px;
+    height: 340px;
+  }
+  
+  .patterns-trps button {
+    display: block;
+    margin-top: 10px;
+  }
+  
+/*end trip-echoes*/
+
+
+/*hambunt-ng*/
+
+.follow-instagram-text {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.insg-fl i{
+  font-size: 50px;
+}  
+
+.text p{
+    margin-top: 8px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.products-hambguer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.products-hambguer img{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 320px;
+    height: 240px;
+}
+
+
+/*end hambunt-ng */
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .header-dhn{
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    }
+    
+    .navbar {
+        flex-direction: column;
+    }
+     .menu-mobile-rp{
+       
+     background-color: #0b0b0b;
+        height: 100vh;
+   position: fixed;
+        width: 100%;
+     }
+    
+     .show{
+        display: flex;
+        justify-content: center;
+     
+     }
+
+    .header-dhn{
+     background-color: #0b0b0b;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #btn-mobile{
+        background-color: #0b0b0b;
+        display: block;
+    }
+    #btn-mobile i{
+        color: #fff;
+    }
+    .navbar-menu {
+        display: none;
+       /* margin-top: 10px;
+        flex-direction: column;
+        align-items: flex-start;*/
+    }
+    .navbar-menu-rp{
+
+        display: block;
+         margin-top: 25px;
+         flex-direction: column;
+         align-items: flex-start;
+    }
+  .navbar-menu-rp  li{
+    list-style: none;
+         font-size: 38px;
+         margin-top: 40px;
+        }
+  .navbar-menu-rp li a{
+    text-decoration:  none;
+    color: #fff;
+ 
+    
+  }
+   
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .patterns-trps {
+        flex-direction: column;
+      }
+}

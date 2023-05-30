@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -29,8 +31,41 @@
     display: inline-block;
     width: 500px;
   }
-  
+  .text-bm span {
+    font-family: 'Inter', sans-serif;
+     font-weight: 800;
+     font-size: 25px;  
+  }
+  .text-bm p{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .email-for-us{
+    font-family: 'Inter', sans-serif;
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+     padding: 10px 40px 10px 40px;
+  }
   @media (max-width: 767px) {
+
+
+    .email-for-us {
+        cursor: pointer;
+        margin-top: 30px;
+        font-family: 'Inter', sans-serif;
+        border-radius: 4px;
+        border: none;
+        font-size: medium;
+        padding: 10px 0px 10px 7px;
+    }
+    #amb{
+        text-decoration: none;
+        color: #0000;
+    }
+
     .ridn-ng {
       flex-direction: column;
     }

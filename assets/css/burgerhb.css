@@ -1,82 +1,72 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.ech-catering-section {
-    padding-top: 200px;
-    padding-bottom: 60px;
+.bo-burguer {
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
   }
-  
-  .img-gnhct {
+  .title{
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+  }
+  .description{
+font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    width: 340px;
+  }
+  .card-menu{
+    margin-top: 10px;
+  }
+  .card-menu p{
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+  }
+  .card-prot-b {
+    flex: 1;
+  }
+  .card-prot-b span{
+      font-size: 12px ;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .card-prot-b{
+    width: 80%;
+    
     height: 300px;
-    width: 300px;
-    margin-top: 20px;
-    margin-left: 20px;
   }
-  
-  .img-gnhct img {
-    width: 100%;
+  .card-prot-b img {
+    border-radius: 7px;
+    width: 60%;
     height: 100%;
   }
   
-  .ridn-ng {
-    display: flex;
-  }
-  
-  .text-bm {
-    padding-left: 20px;
-    display: inline-block;
-    width: 500px;
-  }
-  .text-bm span {
-    font-family: 'Inter', sans-serif;
-     font-weight: 800;
-     font-size: 25px;  
-  }
-  .text-bm p{
-    font-family: 'Inter', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-  }
-
-  .email-for-us{
-    font-family: 'Inter', sans-serif;
-    border-radius: 4px;
-    border: none;
-    font-size: medium;
-     padding: 10px 40px 10px 40px;
-  }
-  @media (max-width: 767px) {
 
 
-    .email-for-us {
-        cursor: pointer;
-        margin-top: 30px;
-        font-family: 'Inter', sans-serif;
-        border-radius: 4px;
-        border: none;
-        font-size: medium;
-        padding: 10px 0px 10px 7px;
-    }
-    #amb{
-        text-decoration: none;
-        color: #0000;
-    }
 
-    .ridn-ng {
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    .bo-burguer {
       flex-direction: column;
+      align-items: flex-start;
+      padding-top: 30px;
     }
   
-    .text-bm, .img-gnhct {
-      width: 100%;
-      margin-left: 0;
+    .description {
+      width: auto;
+      margin-bottom: 20px;
     }
   
-    .img-gnhct {
-      margin-top: 20px;
-    }
+    .card-prot-b img {
+      width: 207px;
+      /* height: auto; */
   }
-  
+  }

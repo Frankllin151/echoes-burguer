@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800&display=swap');
+
+.about-gi{
+  margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-about{
+    display: inline-block;
+    width: 460px;
+}
+
+.text-about p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+  font-weight: 300;
+
+}

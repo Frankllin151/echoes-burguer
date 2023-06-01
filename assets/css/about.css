@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;800&display=swap');
-
-.about-gi{
+.upload-video , .about-gi{
+  display: flex;
+  justify-content: center;
+}
+ .about-gi{
   margin-top: 50px;
-    display: flex;
-    justify-content: center;
+   
     
 }
 
@@ -17,4 +19,32 @@
     font-size: 20px;
   font-weight: 300;
 
+}
+.unot-mb-d{
+  display: flex;
+  flex-direction: column;
+}
+.fmb-vf{
+  margin-top: 20px;
+  width: 460px;
+  height: 300px;
+}
+.fmb-vf img{
+ 
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+@media only screen and (max-width:  768px){
+
+
+
+  .fmb-vf {
+    margin-top: 20px;
+    width: 203px;
+    height: 300px;
+}
 }

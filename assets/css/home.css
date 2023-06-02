@@ -169,13 +169,36 @@ body {
     width: 400px;
     height: 340px;
   }
+  .dng-gnh h3{
+       font-size: 28px;
+       font-family: 'Inter', sans-serif;
+       font-weight: bolder;
+  } 
+  .dng-gnh p{
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+  }
   .itrvior{
     width: 200px;
     height: 340px;
   }
   .patterns-trps button {
     display: block;
+
     margin-top: 10px;
+  }
+  .patterns-trps button:hover{
+    cursor: pointer;
+    font-family: 'Inter' , sans-serif;
+   
+    background-color: rgb(114, 114, 114);
+  }
+  .patterns-trps button a{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+
   }
   
 /*end trip-echoes*/
@@ -341,15 +364,23 @@ body {
       }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
+   .text p {
+        margin-top: 8px;
+        font-size: 18px;
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+    }
+
 
     .dg-gnn {
         width: 200px;
         height: 340px;
     }
     .email-btn {
-        display: inline-block;
-        /* width: 400px; */
+       display: flex;
+       width: 40%;
+       flex-direction: column;
     }
     .products-hambguer img {
         cursor: pointer;

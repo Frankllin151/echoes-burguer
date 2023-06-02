@@ -9,21 +9,3 @@ btn_mobile.addEventListener('click' , (e) =>{
 });
 
 
-function UpdateMobileWidth() {
-    var widthLargura = window.innerWidth;
-
-    if (widthLargura < 414) {
-        document.querySelector('#btn-hym').classList.add('btn-gh');
-        document.querySelector('#btn-hym').classList.remove('email-btn');
-    } else {
-        document.querySelector('#btn-hym').classList.remove('btn-gh');
-        document.querySelector('#btn-hym').classList.add('email-btn');
-    }
-}
-
-UpdateMobileWidth();
-
-
-
-
-
